@@ -1,13 +1,13 @@
 # Program
 import copy
 
-def case1(funcM1, funcF1) :
+def case1(funcM1, funcF1) 
     fm1 = copy.deepcopy(funcM1)
     ff1 = copy.deepcopy(funcF1)
     fm1 = fm1+ff1
     return [fm1, ff1]
 
-def case2(funcM2, funcF2) :
+def case2(funcM2, funcF2) 
     fm2 = copy.deepcopy(funcM2)
     ff2 = copy.deepcopy(funcF2)
     ff2 = ff2+fm2
