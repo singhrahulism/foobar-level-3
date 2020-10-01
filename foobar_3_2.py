@@ -1,6 +1,4 @@
 # Program
-import copy
-
 def case1(funcM1, funcF1) 
     fm1 = copy.deepcopy(funcM1)
     ff1 = copy.deepcopy(funcF1)
@@ -28,7 +26,7 @@ while True :
         lstTemp.append(case2(lst[i][0], lst[i][1]))
         lstTemp.append(case1(lst[i][0], lst[i][1]))
     lst.clear()
-    lst = copy.deepcopy(lstTemp)
+    lst = copy.copy(lstTemp)
     lstTemp.clear()
     for element in lst :
         if element == [m,f] :
