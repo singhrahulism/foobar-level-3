@@ -13,9 +13,9 @@ def solution(l) :
                     if l[k]%l[j] == 0 :
                         lstTrip.append([l[i], l[j], l[k]])
                         count = count+1
-    print('\n Initial Count : ' count)
+    print('\n Initial Count : ', count)
     count = 0
-    for subLst in lstTrip 
+    for subLst in lstTrip: 
         if subLst not in lstTemp :
             lstTemp.append(subLst)
             count = count+1
